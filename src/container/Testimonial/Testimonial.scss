@@ -1,0 +1,76 @@
+.testimonials {
+  //min-height: 100vh;
+  flex-direction: column;
+
+  p {
+    font-size: 1.2rem;
+    @media screen and (max-width: 480px) {
+      max-width: 90%;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .head-text {
+      font-size: 2rem !important;
+    }
+  }
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .head-text {
+      font-size: 2.2rem !important;
+    }
+  }
+}
+
+.testimonials__people {
+  flex-direction: column;
+
+  width: 60%;
+
+  margin: 0 auto;
+
+  img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 4rem 0;
+  }
+
+  p {
+    font-size: 1.56rem;
+    text-align: center;
+    font-weight: 400;
+    &::before,
+    &::after {
+      content: '"';
+    }
+  }
+  h3 {
+    font-size: 1.25rem;
+    margin: 3rem 0 0.3rem 0;
+  }
+  h4 {
+    font-size: 0.8rem;
+  }
+  .carousel {
+    margin-top: 2rem;
+
+    svg {
+      font-size: 2.5rem;
+      cursor: pointer;
+      background-color: var(--white-color);
+      padding: 10px;
+      border-radius: 50%;
+      margin: 0 1rem;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
