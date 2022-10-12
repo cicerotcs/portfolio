@@ -55,7 +55,7 @@ const Work = () => {
           Here are a few past projects I've worked on. Still Updating...
         </p>
         <div className="work__platforms flex-center">
-          {["UI/UX", "Web3", "React JS", "All"].map((item) => (
+          {["UI/UX", "Web3", "React JS", "Django", "All"].map((item) => (
             <div
               onClick={() => projectsFilter(item)}
               key={item}
