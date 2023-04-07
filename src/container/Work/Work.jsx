@@ -52,10 +52,10 @@ const Work = () => {
           className="p-text"
           style={{ textAlign: "center", marginTop: 20, fontSize: 19.2 }}
         >
-          Here are a few past projects I've worked on. Still Updating...
+          Here are a few past projects I've worked on.
         </p>
         <div className="work__platforms flex-center">
-          {["UI/UX", "Web3", "React JS", "Django", "All"].map((item) => (
+          {["Node JS", "JavaScript", "EJS", "React JS", "Django","PostgreSQL", "All"].map((item) => (
             <div
               onClick={() => projectsFilter(item)}
               key={item}

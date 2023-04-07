@@ -12,7 +12,7 @@ const Header = () => {
         <div className="home__desc">
           <span>Hi, my name is</span>
           <h1>Cicero Teixeira.</h1>
-          <h2>Software Engineer, Frontend Developer.</h2>
+          <h2>Software Engineer</h2>
           <p className="p-text">
             I'm a software engineer specializing in building exceptional digital
             experiences. As a freelancer, I've done work for companies and

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 
 import { client, urlFor } from "../../client";
 import { motion } from "framer-motion";
@@ -55,8 +55,11 @@ const Skills = () => {
         <p className="p-text" style={{ textAlign: "center", marginTop: 20 }}>
           🎓 Bachelor in Computer Science
         </p>
-        <p className="p-text" style={{ textAlign: "center" }}>
+        <p className="p-text" style={{ textAlign: "center", margin:"5px" }}>
           🎓 Master's in Software Engineering
+        </p>
+        <p className="p-text" style={{ textAlign: "center" }}>
+          🎓 Software Engineering Immersive (General Assembly)
         </p>
         <div className="experience__skills flex-center">
           {skills.map((skill) => (
